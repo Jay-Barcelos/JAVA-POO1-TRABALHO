@@ -24,10 +24,10 @@ public abstract class BaseParametro {
     public void setDataDeInclusao(LocalDate dataDeInclusao) {
         this.dataDeInclusao = dataDeInclusao;
     }
-    public BaseParametro(){
+    public BaseParametro() {
     }
-    public BaseParametro(int codigo, String descricao, LocalDate dataDeInclusao){
-        this.codigo = codigo; 
+    public BaseParametro(int codigo, String descricao, LocalDate dataDeInclusao) {
+        this.codigo = codigo;
         this.descricao = descricao;
         this.dataDeInclusao = dataDeInclusao;
     }
